@@ -1,0 +1,369 @@
+main{
+   display: flex;
+   justify-content: center;
+   font-family: 'AvantGardeGothicC';
+}
+// edu frame start
+.edu-frame{
+    margin-left: 100px;
+    width: 450px;
+    background-color: #E6E7E9;
+    .edu{
+        .edu-title{
+            margin-top: 50px;
+            text-align: center;
+        }
+        .diplom-one{
+            margin-top: 70px;
+            margin-left: 80px;
+            
+        }
+        .diplom-two{
+            margin-top: 70px;
+            margin-left: 80px;
+            
+        }
+        .diplom-three{
+            margin-top: 70px;
+            margin-left: 80px;
+            
+        }
+    }
+    .edu h2{
+        font-size: 45px;
+        color: #161A25;
+        margin: 0;
+    }
+    .edu p{
+        margin-bottom: -10px;
+        font-size: 15px;
+        color: #545454;
+        font-family: 'Montserrat_Alternates';
+    }
+    .hobby{
+        .my-hobby{
+            margin-top: 40px;
+            display: flex;
+            .dots{
+                .dot{
+                    margin-top: 15px;
+                    margin-left: 70px;
+                    margin-right: 50px;
+                    width: 20px;
+                    height: 19px;
+                    background-image: url('../img/circle_black.png');
+                    background-repeat: no-repeat;
+                }
+            }
+        }
+        .hobby-title{
+            margin-top: 100px;
+            margin-left: 75px;
+            
+            h2{
+                font-size: 45px;
+                margin: 0;
+            }
+        }
+        .my-hobby-list{
+            margin-top: -2px;
+        }
+        .my-hobby-list p{
+            color: #545454;
+            font-family: 'Montserrat_Alternates';
+            font-size: 15px;
+            margin-bottom: 2px;
+        }
+    }    
+}
+// edu frame end
+// experience start
+.experience{
+    width: 467px;
+    margin-left: 100px;
+    .work{
+        .work-title{
+            margin-top: 50px;
+            margin-bottom: 30px;
+        }
+        .work-title h2{
+            font-size: 45px;
+            color: #161A25;
+            margin: 0;
+        }
+        .my-work{
+            display: flex;
+            .comp-desc{
+                width: 350px;
+                margin-left: 65px;
+                margin-top: 15px;
+                .first-comp-desc{
+                    margin-bottom: 25px;
+                    margin-top: 18px;
+                }
+                .second-comp-desc{
+                    margin-bottom: 25px;
+                }
+            }
+            .company{
+                width: 100px;
+                .first-company{
+                    margin-bottom: 75px;
+                    margin-top: 40px;
+                }
+                .second-company{
+                    margin-bottom: 73px;
+                }
+            }
+        }
+        .my-work p{
+            color: #555555;
+            font-family: 'Montserrat_Alternates';
+            font-size: 15px;
+        }
+        .my-work h3{
+            margin-top: 15px;
+            color: #545454;
+            font-family: 'Montserrat_Alternates_SemiBold';
+            font-size: 20px;
+        }
+    }
+    .instruments{
+        margin-top: 123px;
+        .inst-title h2{
+            margin-bottom: 20px;
+            font-size: 45px;
+            color: #161A25;
+        }
+        .table{
+            display: flex;
+            .skill-t-one{
+                display: flex;
+                .level-one{
+                    margin-left: 30px;
+                    margin-right: 40px;
+                    margin-top: 15px;
+                    width: 100px;
+                    height: 20px;
+                    .lvl1{
+                        width: 100%;
+                        height: 20px;
+                        margin-bottom: 14px;
+                        background-image: url('../img/level1.png');
+                        background-repeat: no-repeat;
+                    }
+                    .lvl2{
+                        width: 100%;
+                        height: 20px;
+                        margin-bottom: 13px;
+                        background-image: url('../img/level2.png');
+                        background-repeat: no-repeat;
+                    }
+                    .lvl3{
+                        width: 100%;
+                        height: 20px;
+                        background-image: url('../img/level1.png');
+                        background-repeat: no-repeat;
+                    }
+                }
+            }
+            .skill-t-two{
+                display: flex;
+                margin-left: 2px;
+                .level-two{
+                    margin-left: 20px;
+                    margin-top: 15px;
+                    width: 100px;
+                    height: 20px;
+                    .lvl1{
+                        width: 100%;
+                        height: 20px;
+                        margin-bottom: 14px;
+                        background-image: url('../img/level1.png');
+                        background-repeat: no-repeat;
+                    }
+                    .lvl2{
+                        width: 100%;
+                        height: 20px;
+                        margin-bottom: 13px;
+                        background-image: url('../img/level2.png');
+                        background-repeat: no-repeat;
+                    }
+                    .lvl3{
+                        width: 100%;
+                        height: 20px;
+                        background-image: url('../img/level1.png');
+                        background-repeat: no-repeat;
+                    }
+                }
+            }
+        }
+        .table p{
+            color: #555555;
+            font-family: 'Montserrat_Alternates';
+            font-size: 15px;
+        }
+    }
+}
+// experience end
+@media(max-width: 1280px){
+    .edu-frame{
+        .hobby{
+            margin-top: -42px;
+            margin-left: 2px;
+            .my-hobby{
+                margin-top: 25px;
+            }
+        }
+    }
+    .experience{
+        width: 450px;
+        margin-left: 50px;
+        
+        .work{
+            .work-title h2{
+                text-align: center;
+            }
+            .my-work{
+                .comp-desc{
+                    width: 250px;
+                }
+            }
+        }
+        .instruments{
+            margin-top: 40px;
+            .table{
+                flex-direction: column;
+                .skill-t-one{
+                    margin-bottom: -15px;
+                    .level-one{
+                        margin-left: 30;
+                    }
+                }
+                .skill-t-two{
+                    .level-two{
+                        margin-left: 13px;
+                    }
+                }
+            }
+        }
+    }   
+}
+@media(max-width: 1024px){
+    main{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .edu-frame{
+            width: 100%;
+            margin-left: 0;
+            .edu{
+                .diplom-one{
+                    text-align: center;
+                    margin: 50px auto;
+                }
+                .diplom-two{
+                    text-align: center;
+                    margin: 50px auto;
+                }
+                .diplom-three{
+                    text-align: center;
+                    margin: 50px auto;
+                }
+            }
+            .hobby{
+                text-align: center;
+                .hobby-title{
+                    margin: 0;
+                    margin-top: 90px;
+                }
+                .my-hobby{
+                    margin-top: 15px;
+                    margin-bottom: 50px;
+                    justify-content: center;
+                    .dots{
+
+                        .dot{
+                            margin-left: 0px;
+                            margin-right: 4px;
+                        }
+                    }
+                }
+            }
+        }
+        .experience{
+            width: 100%;
+            margin: 0;
+            .work{
+                .my-work{
+                    justify-content: center;
+                }
+            }
+            .instruments{
+                text-align: center;
+                .table{
+                    .skill-t-one{
+                        justify-content: center;
+                        .level-one{
+                            margin-right: -14px;
+                            margin-left: 18px;
+                        }
+                    }
+                    .skill-t-two{
+                        justify-content: center;
+                    }
+                }
+            }    
+        }
+    }
+}
+@media(max-width: 480px){
+    .edu-frame{
+        .edu{
+            .edu-title h2{
+                font-size: 35px;
+            }
+        }
+        .hobby{
+            .hobby-title h2{
+                font-size: 35px;
+            }
+        }
+    }
+    .experience{
+        .work{
+            .work-title h2{
+                font-size: 30px;
+                .first-company{
+                    margin-bottom: 110px;
+                }
+                .first-second{
+                    margin-bottom: 110px;
+                }
+            }
+            .my-work{
+                .company{
+                    margin-left: 10px;
+                    .first-company{
+                        margin-bottom: 108px;
+                    }
+                    .second-company{
+                        margin-bottom: 110px;
+                    }
+                }
+                .comp-desc{
+                    width: 130px;
+                    margin-left: -30px;
+                }
+            }
+            .my-work p{
+                font-size: 10px;
+            }
+        }
+        .instruments{
+            .inst-title h2{
+                font-size: 30px;
+            }
+        }
+    } 
+}
